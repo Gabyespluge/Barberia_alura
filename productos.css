@@ -89,3 +89,25 @@ footer {
     font-size: 13px;
     margin: 20px;
 }
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+    .caja{
+        width: auto;
+    }
+
+    .productos li{
+        display: block;
+        margin-bottom: 2em;
+    }
+
+    .productos{
+        padding: 25px;
+    }
+
+}
